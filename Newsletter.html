@@ -3,20 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport">
-    <title></title>
-    <link rel="stylesheet" href=".css">
+    <title>Event Registration Form</title>
+    <link rel="stylesheet" href="you.css">
 </head>
 <body>
     <div class="container">
-        <h1>Newsletter Subscription Form</h1>
+        <h1>Event Registration</h1>
         <form id="registrationForm" onsubmit="return validateForm()">
+            <label for="First Name">First Name:</label>
             <input type="text" id="name" name="name" required placeholder="Enter your name">
-			<label for="First Name">First Name:</label>
 			
-			<input type="text" id="name" name="name" required placeholder="Enter your name">
 			<label for="Last Name">Last Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
             
-            <input type="email" id="email" name="email" required placeholder="Enter your email">
             <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+            
+        
+		   
+		   
+            
+            
+            
+            <button type="submit">Register</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="toi.js"></script>
 </body>
 </html>
+
