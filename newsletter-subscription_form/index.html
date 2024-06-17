@@ -43,15 +43,18 @@
         <div class="group">
           <fieldset>
             <legend>Subscription Preferences:</legend>
-            <label for="tech">
-              <input type="checkbox" id="tech" name="preferences" /> Technology
-            </label>
-            <label for="health">
-              <input type="checkbox" id="health" name="preferences" /> Health
-            </label>
-            <label for="finance">
-              <input type="checkbox" id="finance" name="preferences" /> Finance
-            </label>
+              <label for="preferences">Subscription Preferences:</label>
+          <select id="preferences" name="preferences" required>
+            <option value="" disabled selected>Select your preference</option>
+            <option value="Technology">Technology</option>
+            <option value="Health">Health</option>
+            <option value="Finance">Finance</option>
+            <option value="Entertainment">Entertainment</option>
+            <option value="Agriculture">Agriculture</option>
+            <option value="Education">Educaton</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Tourism">Tourism</option>
+          </select>
           </fieldset>
         </div>
         <div class="group">
