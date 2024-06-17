@@ -14,7 +14,7 @@
       }
       h1 {
         text-align: center;
-        color: #333;
+        color: #282c35;
       }
       .group {
         margin-bottom: 15px;
@@ -22,7 +22,7 @@
       .group label {
         display: block;
         margin-bottom: 5px;
-        color: #555;
+        color: #282c35;
       }
       .group input[type="text"],
       .group input[type="email"],
@@ -38,7 +38,7 @@
         padding: 10px;
       }
       legend {
-        color: #555;
+        color: #282c35;
       }
       label {
         display: block;
@@ -48,18 +48,25 @@
         margin-right: 10px;
       }
       button {
-        width: 100%;
-        padding: 10px;
-        background-color: #28a745;
-        border: none;
-        border-radius: 5px;
+        width: 400px;
+        display: block;
+        margin: 20px auto;
+        border: 1px solid #1a64d6;
+        background: #1a64d6;
         color: #fff;
         font-size: 16px;
+        line-height: 10px;
+        padding: 16px 24px;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
         cursor: pointer;
-        transition: background-color 0.3s ease;
       }
+
       button:hover {
-        background-color: #218838;
+        background: white;
+        color: #1a64d6;
+        border: 1px solid #1a64d6;
       }
       .result {
         margin-top: 20px;
